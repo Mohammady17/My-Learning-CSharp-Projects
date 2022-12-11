@@ -120,6 +120,7 @@ namespace BackEnd_Practice
             }
             else if (respone == "N" || respone == "n")
             {
+                Console.Clear();
                 Console.WriteLine("Goodbye!");
                 Environment.Exit(0);
             }
